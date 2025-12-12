@@ -67,3 +67,20 @@ card {
   font-size: 14px;
 }
 
+@media (max-width: 420px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 421px) and (max-width: 839px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 840px) {
+  .container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
