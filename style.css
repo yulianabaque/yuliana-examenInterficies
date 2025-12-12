@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #eaeded;
+  color: #0f1111;
+}
+
+.page {
+    padding: 16px;
+}
